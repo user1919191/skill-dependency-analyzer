@@ -1,0 +1,14 @@
+# SKILL Dependency Analyzer - 报告清理定时任务
+# 每2天执行一次，清理两周前的历史报告
+
+# 每2天的凌晨2点执行清理任务
+0 2 */2 * * cd /Users/moka/Downloads/claude-skills/skills/skill-dependency-analyzer && /usr/bin/python3 scripts/cleanup_old_reports.py >> logs/cleanup.log 2>&1
+
+# 说明：
+# - 分钟: 0
+# - 小时: 2 (凌晨2点)
+# - 日期: */2 (每2天)
+# - 月份: * (每月)
+# - 星期: * (每周)
+#
+# 日志输出到: logs/cleanup.log

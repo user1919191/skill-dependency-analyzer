@@ -1,0 +1,5 @@
+{
+  "name": "skill-dependency-analyzer",
+  "description": "SKILL 依赖关系分析器 - 自动解析所有 SKILL 的调用关系，检测循环依赖和多路径问题，生成可视化依赖图和详细评估报告。",
+  "version": "1.0.0"
+}

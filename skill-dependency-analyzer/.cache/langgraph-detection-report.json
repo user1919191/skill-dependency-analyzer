@@ -1,0 +1,330 @@
+{
+  "summary": {
+    "total_skills": 58,
+    "total_dependencies": 17,
+    "has_cycles": true,
+    "cycle_count": 12,
+    "multiple_path_count": 0
+  },
+  "cycles": [
+    [
+      "sls-log-query",
+      "sls-log-summary",
+      "sls-log-query"
+    ],
+    [
+      "sls-log-summary",
+      "sls-log-summary"
+    ],
+    [
+      "sls-log-summary",
+      "sls-log-query",
+      "sls-log-summary"
+    ],
+    [
+      "sls-log-query",
+      "sls-log-summary",
+      "sls-log-query"
+    ],
+    [
+      "sls-log-summary",
+      "sls-log-summary"
+    ],
+    [
+      "sls-log-summary",
+      "sls-log-query",
+      "sls-log-summary"
+    ],
+    [
+      "sls-log-query",
+      "sls-log-summary",
+      "sls-log-query"
+    ],
+    [
+      "sls-log-summary",
+      "sls-log-summary"
+    ],
+    [
+      "sls-log-summary",
+      "sls-log-query",
+      "sls-log-summary"
+    ],
+    [
+      "sls-log-query",
+      "sls-log-summary",
+      "sls-log-query"
+    ],
+    [
+      "sls-log-summary",
+      "sls-log-summary"
+    ],
+    [
+      "sls-log-summary",
+      "sls-log-query",
+      "sls-log-summary"
+    ]
+  ],
+  "conditional_cycles": [],
+  "multiple_paths": [],
+  "metrics": {
+    "node_count": 58,
+    "edge_count": 17,
+    "density": 0.00514216575922565,
+    "avg_in_degree": 0.20689655172413793,
+    "avg_out_degree": 0.29310344827586204,
+    "isolated_nodes": [
+      "ats-openapi-docs",
+      "offer-api",
+      "agent-browser",
+      "store-api",
+      "wiki-manager",
+      "apollo-reader",
+      "hcm-dev",
+      "gitlab",
+      "org-api",
+      "bi-api",
+      "moka-create-workspace",
+      "user-api",
+      "role-api",
+      "public-api",
+      "recruitment-req-api",
+      "hcm-deploy",
+      "reflect",
+      "hcm-requirement-clarify",
+      "referral-api",
+      "code-relevance",
+      "recruitment-website-api",
+      "skip-reflect",
+      "jd-template-api",
+      "auto-login",
+      "hotfix-tip",
+      "hcm-feature-dev",
+      "yapi",
+      "headhunter-api",
+      "auto-flow-publisher",
+      "enterprise-info-api",
+      "candidate-api",
+      "reflect-skills",
+      "interview-api",
+      "onboarding-api",
+      "ats-integration-business-to-code",
+      "jenkins",
+      "sentry",
+      "talent-pool-api",
+      "browser-use",
+      "cc-providers",
+      "hcm-tech-design",
+      "view-queue",
+      "job-api",
+      "exam-api",
+      "package-plugin"
+    ],
+    "max_depth": 3,
+    "in_degrees": {
+      "ats-openapi-docs": 0,
+      "offer-api": 0,
+      "agent-browser": 0,
+      "store-api": 0,
+      "wiki-manager": 0,
+      "apollo-reader": 0,
+      "hcm-dev": 0,
+      "gitlab": 0,
+      "org-api": 0,
+      "database-query": 4,
+      "bi-api": 0,
+      "hcm-test": 0,
+      "moka-create-workspace": 0,
+      "user-api": 0,
+      "role-api": 0,
+      "workflow-platform-knowledge": 0,
+      "public-api": 0,
+      "recruitment-req-api": 0,
+      "sls-log-query": 3,
+      "hcm-deploy": 0,
+      "sls-log-summary": 2,
+      "reflect": 0,
+      "hcm-requirement-clarify": 0,
+      "referral-api": 0,
+      "code-relevance": 0,
+      "wiki": 1,
+      "recruitment-website-api": 0,
+      "hcm-test-design": 0,
+      "skip-reflect": 0,
+      "jd-template-api": 0,
+      "auto-login": 0,
+      "skill-creator": 0,
+      "hotfix-tip": 0,
+      "hcm-feature-dev": 0,
+      "jira": 1,
+      "yapi": 0,
+      "headhunter-api": 0,
+      "auto-flow-publisher": 0,
+      "oncall-dispatcher": 0,
+      "apollo-query": 1,
+      "doc-to-schema": 0,
+      "enterprise-info-api": 0,
+      "candidate-api": 0,
+      "reflect-skills": 0,
+      "interview-api": 0,
+      "hcm-prd-analysis": 0,
+      "onboarding-api": 0,
+      "ats-integration-business-to-code": 0,
+      "jenkins": 0,
+      "sentry": 0,
+      "talent-pool-api": 0,
+      "browser-use": 0,
+      "cc-providers": 0,
+      "hcm-tech-design": 0,
+      "view-queue": 0,
+      "job-api": 0,
+      "exam-api": 0,
+      "package-plugin": 0
+    },
+    "out_degrees": {
+      "ats-openapi-docs": 0,
+      "offer-api": 0,
+      "agent-browser": 0,
+      "store-api": 0,
+      "wiki-manager": 0,
+      "apollo-reader": 0,
+      "hcm-dev": 0,
+      "gitlab": 0,
+      "org-api": 0,
+      "database-query": 0,
+      "bi-api": 0,
+      "hcm-test": 1,
+      "moka-create-workspace": 0,
+      "user-api": 0,
+      "role-api": 0,
+      "workflow-platform-knowledge": 1,
+      "public-api": 0,
+      "recruitment-req-api": 0,
+      "sls-log-query": 1,
+      "hcm-deploy": 0,
+      "sls-log-summary": 2,
+      "reflect": 0,
+      "hcm-requirement-clarify": 0,
+      "referral-api": 0,
+      "code-relevance": 0,
+      "wiki": 0,
+      "recruitment-website-api": 0,
+      "hcm-test-design": 1,
+      "skip-reflect": 0,
+      "jd-template-api": 0,
+      "auto-login": 0,
+      "skill-creator": 2,
+      "hotfix-tip": 0,
+      "hcm-feature-dev": 0,
+      "jira": 0,
+      "yapi": 0,
+      "headhunter-api": 0,
+      "auto-flow-publisher": 0,
+      "oncall-dispatcher": 6,
+      "apollo-query": 0,
+      "doc-to-schema": 1,
+      "enterprise-info-api": 0,
+      "candidate-api": 0,
+      "reflect-skills": 0,
+      "interview-api": 0,
+      "hcm-prd-analysis": 2,
+      "onboarding-api": 0,
+      "ats-integration-business-to-code": 0,
+      "jenkins": 0,
+      "sentry": 0,
+      "talent-pool-api": 0,
+      "browser-use": 0,
+      "cc-providers": 0,
+      "hcm-tech-design": 0,
+      "view-queue": 0,
+      "job-api": 0,
+      "exam-api": 0,
+      "package-plugin": 0
+    }
+  },
+  "top_skills": {
+    "by_in_degree": [
+      [
+        "database-query",
+        4
+      ],
+      [
+        "sls-log-query",
+        3
+      ],
+      [
+        "sls-log-summary",
+        2
+      ],
+      [
+        "wiki",
+        1
+      ],
+      [
+        "jira",
+        1
+      ],
+      [
+        "apollo-query",
+        1
+      ],
+      [
+        "ats-openapi-docs",
+        0
+      ],
+      [
+        "offer-api",
+        0
+      ],
+      [
+        "agent-browser",
+        0
+      ],
+      [
+        "store-api",
+        0
+      ]
+    ],
+    "by_out_degree": [
+      [
+        "oncall-dispatcher",
+        6
+      ],
+      [
+        "sls-log-summary",
+        2
+      ],
+      [
+        "skill-creator",
+        2
+      ],
+      [
+        "hcm-prd-analysis",
+        2
+      ],
+      [
+        "hcm-test",
+        1
+      ],
+      [
+        "workflow-platform-knowledge",
+        1
+      ],
+      [
+        "sls-log-query",
+        1
+      ],
+      [
+        "hcm-test-design",
+        1
+      ],
+      [
+        "doc-to-schema",
+        1
+      ],
+      [
+        "ats-openapi-docs",
+        0
+      ]
+    ]
+  }
+}
