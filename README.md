@@ -351,8 +351,6 @@ def _extract_cycle_evidence(self, cycle: List[str]) -> Dict[str, str]:
 - 实时检测循环调用并中断
 - 实现三级缓存机制（参考 Spring）
 
-详见：[docs/STATIC_VS_RUNTIME.md](STATIC_VS_RUNTIME.md)
-
 ## 可能的问题
 
 ### 1. 被动检测 vs 主动监控 ⚠️
